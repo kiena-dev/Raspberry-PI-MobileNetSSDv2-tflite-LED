@@ -54,16 +54,32 @@ Follow this organized table to establish the proper connections, you can also re
 </details>
 
 
-
-
 ## Installation
 
-Install my-project with npm
+To run this project, you need [Python 3.5](https://docs.python.org/3/) or higher installed on your system. Follow these steps to get started:
 
+- Clone the repository and navigate to the project directory: :
 ```bash
-  npm install my-project
-  cd my-project
+  git clone https://github.com/kiena-dev/Raspberry-PI-MobileNetSSDv2-tflite-LED.git
+  cd Raspberry-PI-MobileNetSSDv2-tflite-LED
 ```
+
+- Create a Python virtual environment (optional but recommended):
+```bash
+  python3 -m venv venv
+```
+
+- Activate the virtual environment:
+```bash
+  source venv/bin/activate
+```
+
+- Install the required dependencies using pip3:
+```bash
+  pip3 install -r get_requirement.txt
+```
+
+Now you have successfully installed the project and its dependencies.
     
 ## Usage/Examples
 
