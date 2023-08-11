@@ -9,9 +9,9 @@ This GitHub repository show real-time object detection using a Raspberry Pi, Mob
 
 
 ## Demo
+Below is the following demo video showcasing the Raspberry Pi in action. When real-time object detection processed, video frames show the fps, LED indicators will trun on based on detected classes, and CPU usage and temperature information displayed on the LCD screen.
 
-Insert gif or link to demo
-
+<img src=".image/demo_video_gif.gif" alt="Overview" width="700">
 
 ## Prerequisites
 - Raspberry Pi 4 (I'm using 8 GB version)
