@@ -81,15 +81,52 @@ To run this project, you need [Python 3.5](https://docs.python.org/3/) or higher
 
 Now you have successfully installed the project and its dependencies.
     
-## Usage/Examples
+## Usage
 
-```javascript
-import Component from 'my-project'
+<details>
+<summary>Video Usage</summary>
 
-function App() {
-  return <Component />
-}
+Default (without LED/LCD):
+```bash
+  python3 RPI_detect_video.py --modeldir=mobilenetssd_320 --video=video_test.mp4 --graph=detect.tflite
 ```
+
+With LED/LCD:
+
+```bash
+  python3 RPI_detect_video_led.py --modeldir=mobilenetssd_320 --video=video_test.mp4 --graph=detect.tflite
+```
+
+</details>
+
+<details>
+<summary>Image Usage</summary>
+
+```bash
+  python3 RPI_detect_image.py --modeldir=mobilenetssd_320 --graph=detect.tflite --imagedir=image --save_results
+```
+
+Remove `--save_results` if you don't want to save images and change `--graph` to switch the model.
+
+</details>
+
+<details>
+<summary>Webcam Usage</summary>
+
+Default (without LED/LCD):
+```bash
+  python3 RPI_detect_webcam.py --modeldir=mobilenetssd_320 --graph=detect.tflite
+```
+
+With LED/LCD:
+
+```bash
+  python3 RPI_detect_webcam_led.py --modeldir=mobilenetssd_320 --graph=detect.tflite
+```
+
+Change `--modeldir` to modify the model file location as needed.
+
+</details>
 
 ## Color Reference
 
