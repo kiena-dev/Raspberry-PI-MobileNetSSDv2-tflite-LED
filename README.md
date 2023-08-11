@@ -21,7 +21,7 @@ Below is the following demo video showcasing the Raspberry Pi in action. When re
 - Pi Camera v2/v1/Web-Camera
 - PCB or PCB Dot
 - LCD 16x2 Biru/Blue 1602 SPI I2C
-- Wiring cable ✨Magic ✨
+- ✨ Wiring cable ✨
 
 ## Wiring Diagram
 
