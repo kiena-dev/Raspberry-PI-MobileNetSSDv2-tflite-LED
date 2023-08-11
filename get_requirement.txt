@@ -1,0 +1,11 @@
+# Requirement to run this project
+# Usage: pip install -r get_requirement.txt
+
+# What we need
+# Install all of this package
+opencv-python>=4.5.3.56
+tflite-runtime>=2.10.0
+RPi.GPIO>=0.6.4
+numpy>=1.18.5
+smbus>=1.1.post2
+psutil>=5.9.5
