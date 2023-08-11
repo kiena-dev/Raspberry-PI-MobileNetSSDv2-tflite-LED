@@ -128,14 +128,19 @@ Change `--modeldir` to modify the model file location as needed.
 
 </details>
 
-## Color Reference
+## Training Dataset
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+If you want to train your own model, you can utilize the resource provided below:
+
+<a href="https://colab.research.google.com/github/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/Train_TFLite2_Object_Detction_Model.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+Reference Jupyter Notebook File 
+
+Dataset from Roboflow:
+
+<a href="https://universe.roboflow.com/devan-naratama-2xq45/skripsi-dtmyf"><img src="https://app.roboflow.com/images/download-dataset-badge.svg"></img></a>   <a href="https://universe.roboflow.com/devan-naratama-2xq45/skripsi-dtmyf/model/"><img src="https://app.roboflow.com/images/try-model-badge.svg"></img></a>
+
+Be sure to make use of these resources to train your model and achieve optimal results!
 
 
 ## Authors
