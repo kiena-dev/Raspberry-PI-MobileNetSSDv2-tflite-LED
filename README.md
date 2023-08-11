@@ -25,6 +25,37 @@ Below is the following demo video showcasing the Raspberry Pi in action. When re
 
 <img src=".image/sketch_github_bb.png" alt="Overview" width="500">
 
+Follow this organized table to establish the proper connections, you can also read the reference here [GPIO on Raspberry Pi4](https://pinout.xyz/).
+
+<details>
+<summary>LED Wiring - Raspberry Pi</summary>
+
+| Wire Color | GPIO Pin |
+|------------|----------|
+| Red        | GPIO 17  |
+| Green      | GPIO 18  |
+| Yellow     | GPIO 23  |
+| Cyan       | GPIO 27  |
+| White      | GPIO 22  |
+| Black (GND)| GND      |
+
+</details>
+
+<details>
+<summary>I2C Wiring - Raspberry Pi</summary>
+
+| Wire Color | Connection |
+|------------|------------|
+| Red        | 5V         |
+| Black      | GND        |
+| Purple     | SDA        |
+| Brown      | SCL        |
+
+</details>
+
+
+
+
 ## Installation
 
 Install my-project with npm
