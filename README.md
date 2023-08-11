@@ -1,12 +1,14 @@
 # Raspberry-PI-MobileNetSSDv2-tflite-LED
-## _The Last Markdown Editor, Ever_
+## _Detect object, output the class using LED_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+![Raspberry Pi](https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-This GitHub repository show real-time object detection using a Raspberry Pi, MobileNetSSDv2 TensorFlow Lite model, LED indicators, and an LCD display.
+This GitHub repository show real-time object detection using a Raspberry Pi, MobileNetSSDv2 TensorFlow Lite model, LED indicators, and an LCD display. the feature of this project include:
 
+- Show fps for each detection
+- Output the class using LED for each class (there is 5 classes: car, person, truck, bus, motorbike)
+- Show CPU and temperature of raspberry pi using LCD 16x02.
 
 ## Demo
 Below is the following demo video showcasing the Raspberry Pi in action. When real-time object detection processed, video frames show the fps, LED indicators will trun on based on detected classes, and CPU usage and temperature information displayed on the LCD screen.
@@ -134,7 +136,9 @@ If you want to train your own model, you can utilize the resource provided below
 
 <a href="https://colab.research.google.com/github/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/Train_TFLite2_Object_Detction_Model.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-Reference Jupyter Notebook File 
+Reference Jupyter Notebook File:
+
+<a href="https://github.com/kiena-dev/Raspberry-PI-MobileNetSSDv2-tflite-LED/blob/main/MobinetV2_TFLite_training.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 Dataset from Roboflow:
 
@@ -147,8 +151,9 @@ Be sure to make use of these resources to train your model and achieve optimal r
 
 - [@kiena](https://github.com/kiena-dev)
 
+## Reference
+Special thanks to the following resources that inspired and contributed to this project:
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+- [QEngineering](https://qengineering.eu/)
+- [Tensorflow](https://tensorflow.org/)
+- [TensorFlow Lite Object Detection on Android and Raspberry Pi by EdjeElectronics](https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi)
